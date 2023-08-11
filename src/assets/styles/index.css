@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Manrope&family=Poppins:wght@300;400&family=Roboto&family=Space+Mono&display=swap');
+
+body {
+  margin: 0;
+ font-family: Arial, Helvetica, sans-serif;
+ overflow-x: hidden;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

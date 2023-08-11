@@ -1,0 +1,80 @@
+/* styles.css */
+.App {
+    display: grid;
+    grid-template-areas: 
+    'header header header header header header'
+    'main main main main main main'
+    'footer footer footer footer footer footer';
+    color: white;
+
+}
+#footer {
+    background-color: blanchedalmond;
+}
+ body {
+    background-color: black;
+ 
+}
+
+#header {
+    grid-area: header;
+    height: 9vh;
+}
+#main {
+    grid-area: main;
+    margin-bottom: 10px;
+}
+#frontpage {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+   background-image: url('/src/assets/images/frontpageimg.svg');
+}
+#wave {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+   background-image: url('/src/assets/images/waveImgOne.svg');
+   background-color: pink;
+   height: 700px;
+}
+#blob {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: url('/src/assets/images/frontpageblob.svg');
+}
+#footer {
+    grid-area: footer;
+    height: 40vh;
+  
+}
+.custom-shape-divider-top-1691756724 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1691756724 svg {
+    position: relative;
+    display: block;
+    width: calc(144% + 1.3px);
+    height: 147px;
+    transform: rotateY(180deg);
+}
+
+.custom-shape-divider-top-1691756724 .shape-fill {
+    fill: #FFFFFF;
+}
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
+
+
